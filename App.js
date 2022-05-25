@@ -12,7 +12,7 @@ function App() {
 
   const startGame = () => {
     setScore(0);
-    const timer = setInterval(generateTimer, 2000);
+    const timer = setInterval(generateTimer, 1000);
     setTimer(timer);
     // console.log('start')
   };
